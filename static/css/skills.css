@@ -1,0 +1,25 @@
+.container{
+  background-color: #FFF;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #CCC;
+    width: 450px;
+}
+.container .name{
+  text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container .value{
+  background-color: #F7F7F7;
+    padding: 10px;
+    position: relative;
+}
+.container .value span{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: aqua;
+  height: 100%;
+}
